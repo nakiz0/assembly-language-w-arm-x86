@@ -11,3 +11,6 @@ start:
     mov [num],bl
     mov [num+1],bl
     mov [num+2],bl
+
+    mov eax,1
+    int 80h
