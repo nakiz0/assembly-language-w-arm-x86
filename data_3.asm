@@ -8,4 +8,5 @@ global _start
 start:
     mov bl,[num]
     mov cl ,num[2]
-    mov eax,
+    mov eax,1
+    
