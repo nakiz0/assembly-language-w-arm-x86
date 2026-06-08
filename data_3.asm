@@ -9,4 +9,4 @@ start:
     mov bl,[num]
     mov cl ,num[2]
     mov eax,1
-    
+    int 80h
