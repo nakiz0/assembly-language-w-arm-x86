@@ -9,4 +9,6 @@ _start:
     mov ebx,0b1100
     or eax,ebx
     not eax
+    and eax,0xF
+    xor eax,edx
     int 80h
