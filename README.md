@@ -13,3 +13,8 @@ ld -m elf_386 file_name.o -o file_name
 ## Check exit
 echo $?
 
+## Assembly Only
+gcc -no-pie -m32 file_name.o -o file_name
+
+## Assembly + C
+gcc -no-pie -m32 file_name.o file_name.c -o file_name
