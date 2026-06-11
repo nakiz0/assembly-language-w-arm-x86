@@ -23,3 +23,6 @@ gcc -no-pie -m32 file_name.o file_name.c -o file_name
 ## Using GDB debugger
 
 ![MOV in register](screenshot/1.png)
+
+## stepi
+![stepi to step through] (screenshot/2.png)
