@@ -22,4 +22,4 @@ gcc -no-pie -m32 file_name.o file_name.c -o file_name
 
 ## Using GDB debugger
 
-(screenshot/1.png)
+!(screenshot/1.png)
