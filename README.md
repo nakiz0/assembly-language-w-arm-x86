@@ -27,3 +27,8 @@ gcc -no-pie -m32 file_name.o file_name.c -o file_name
 ## stepi
 
 ![stepi to step through](screenshot/2.png)
+
+
+## list in register
+
+![list](screenshot/5.png)
